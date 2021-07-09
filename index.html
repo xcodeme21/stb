@@ -104,6 +104,7 @@
                     placeholder="Type here"
                     id="fullName"
                     name="fullName"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -114,6 +115,7 @@
                     placeholder="Type here"
                     id="mobilePhone"
                     name="mobilePhone"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -124,6 +126,7 @@
                     placeholder="Type here"
                     id="designation"
                     name="designation"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -134,6 +137,7 @@
                     placeholder="Type here"
                     id="companyName"
                     name="companyName"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -144,6 +148,7 @@
                     placeholder="Type here"
                     id="companyAddress"
                     name="companyAddress"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -154,11 +159,12 @@
                     placeholder="Type here"
                     id="companyPhone"
                     name="companyPhone"
+                    required
                   />
                 </div>
                 <div class="form-group">
                   <label for="province">Province Origin</label>
-                  <select class="custom-input-select">
+                  <select class="custom-input-select" required>
                     <option value="jakarta">DKI JAKARTA</option>
                     <option value="bandung">BANDUNG</option>
                   </select>
@@ -172,6 +178,7 @@
                       id="travel_agent"
                       value="Travel Agent"
                       class="form-check-input"
+                      required
                     />
                     <label for="travel_agent" class="form-check-label"
                       >Travel Agent</label
@@ -184,6 +191,7 @@
                       id="mice"
                       value="Mice"
                       class="form-check-input"
+                      required
                     />
                     <label for="mice" class="form-check-label">Mice</label>
                   </div>
@@ -194,6 +202,7 @@
                       id="ota"
                       value="OTA"
                       class="form-check-input"
+                      required
                     />
                     <label for="ota" class="form-check-label">OTA</label>
                   </div>
@@ -204,6 +213,7 @@
                       id="other"
                       value="Others"
                       class="form-check-input"
+                      required
                     />
                     <label for="other" class="form-check-label">Others</label>
                     <input
@@ -225,6 +235,7 @@
                       id="inbound"
                       value="Inbound"
                       class="form-check-input"
+                      required
                     />
                     <label for="inbound" class="form-check-label"
                       >Inbound</label
@@ -237,6 +248,7 @@
                       id="outbound"
                       value="Outbound"
                       class="form-check-input"
+                      required
                     />
                     <label for="outbound" class="form-check-label"
                       >Outbound</label
@@ -249,6 +261,7 @@
                       id="inbound_outbound"
                       value="Inbound & Outbound"
                       class="form-check-input"
+                      required
                     />
                     <label for="inbound_outbound" class="form-check-label"
                       >Inbound & Outbound</label
@@ -261,6 +274,7 @@
                       id="special"
                       value="Special Interest Tour"
                       class="form-check-input"
+                      required
                     />
                     <label for="special" class="form-check-label"
                       >Special Interest Tour</label
@@ -273,6 +287,7 @@
                       id="ota_type"
                       value="OTA"
                       class="form-check-input"
+                      required
                     />
                     <label for="ota_type" class="form-check-label">OTA</label>
                   </div>
@@ -283,6 +298,7 @@
                       id="other_type"
                       value="Others"
                       class="form-check-input"
+                      required
                     />
                     <label for="other_type" class="form-check-label"
                       >Others</label
@@ -292,6 +308,7 @@
                 <button
                   class="btn-next"
                   id="step_1"
+                  type="button"
                   onclick="handleNextStep('step_2')"
                 >
                   NEXT
@@ -316,6 +333,7 @@
                       id="q1-op1"
                       value="Yes"
                       class="form-check-input"
+                      required
                     />
                     <label for="q1-op1" class="form-check-label">Yes</label>
                   </div>
@@ -326,6 +344,7 @@
                       id="q1-op2"
                       value="No"
                       class="form-check-input"
+                      required
                     />
                     <label for="q1-op2" class="form-check-label">No</label>
                   </div>
@@ -337,6 +356,7 @@
                       value="Not Fully Operation (Work From Home or Reduced
                       Manpower)"
                       class="form-check-input"
+                      required
                     />
                     <label for="q1-op3" class="form-check-label"
                       >Not Fully Operation (Work From Home or Reduced
@@ -357,6 +377,7 @@
                       id="q2-op1"
                       value="Yes"
                       class="form-check-input"
+                      required
                     />
                     <label for="q2-op1" class="form-check-label">Yes</label>
                   </div>
@@ -367,6 +388,7 @@
                       id="q2-op2"
                       value="No"
                       class="form-check-input"
+                      required
                     />
                     <label for="q2-op2" class="form-check-label">No</label>
                   </div>
@@ -384,6 +406,7 @@
                       id="q2-op1"
                       value="Yes"
                       class="form-check-input"
+                      required
                     />
                     <label for="q2-op1" class="form-check-label">Yes</label>
                   </div>
@@ -394,6 +417,7 @@
                       id="q2-op2"
                       value="No"
                       class="form-check-input"
+                      required
                     />
                     <label for="q2-op2" class="form-check-label">No</label>
                   </div>
@@ -412,6 +436,7 @@
                     name="question3"
                     style="width: 480px"
                     value=""
+                    required
                   />
                   <p class="text-small mt-1">
                     Example: Virtual Tour of Destination A, Virtual team
@@ -431,6 +456,7 @@
                       id="q4-op1"
                       value="Virtual Walking Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op1" class="form-check-label"
                       >Virtual Walking Tours</label
@@ -443,6 +469,7 @@
                       id="q4-op2"
                       value="General Destination Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op2" class="form-check-label"
                       >General Destination Tours</label
@@ -455,6 +482,7 @@
                       id="q4-op3"
                       value="Virtual Attraction Guide"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op3" class="form-check-label"
                       >Virtual Attraction Guide</label
@@ -467,6 +495,7 @@
                       id="q4-op4"
                       value="Virtual Attraction Guide"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op4" class="form-check-label"
                       >Cultural Precints/Neighbourhood Tours</label
@@ -479,6 +508,7 @@
                       id="q4-op5"
                       value="Live Streaming Events"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op5" class="form-check-label"
                       >Live Streaming Events</label
@@ -491,6 +521,7 @@
                       id="q4-op6"
                       value="Virtual educational experiences"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op6" class="form-check-label"
                       >Virtual educational experiences</label
@@ -503,6 +534,7 @@
                       id="q4-op7"
                       value="Virtual Business Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q4-op7" class="form-check-label"
                       >Virtual Business Tours</label
@@ -522,6 +554,7 @@
                       id="q5-op1"
                       value="Yes"
                       class="form-check-input"
+                      required
                     />
                     <label for="q5-op1" class="form-check-label">Yes</label>
                   </div>
@@ -532,6 +565,7 @@
                       id="q5-op2"
                       value="No"
                       class="form-check-input"
+                      required
                     />
                     <label for="q5-op2" class="form-check-label">No</label>
                   </div>
@@ -550,6 +584,7 @@
                       id="q6-op1"
                       value="Yes"
                       class="form-check-input"
+                      required
                     />
                     <label for="q6-op1" class="form-check-label"
                       >Yes, there is potential as Indonesians are not able to
@@ -563,6 +598,7 @@
                       id="q6-op2"
                       value="No"
                       class="form-check-input"
+                      required
                     />
                     <label for="q6-op2" class="form-check-label"
                       >No, life is back to normal here and virtual
@@ -576,6 +612,7 @@
                       id="q6-op3"
                       value="Other"
                       class="form-check-input"
+                      required
                     />
                     <label for="q6-op3" class="form-check-label"
                       >Other Comments :</label
@@ -604,6 +641,7 @@
                       id="q7-op1"
                       value="Credibility"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op1" class="form-check-label"
                       >Credibility of the tour provider</label
@@ -616,6 +654,7 @@
                       id="q7-op2"
                       value="Price"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op2" class="form-check-label">Price</label>
                   </div>
@@ -626,6 +665,7 @@
                       id="q7-op3"
                       value="Selecteion"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op3" class="form-check-label"
                       >Selecteion of tour offerings</label
@@ -638,6 +678,7 @@
                       id="q7-op4"
                       value="Duration"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op4" class="form-check-label"
                       >Duration of the tour</label
@@ -650,6 +691,7 @@
                       id="q7-op5"
                       value="Language"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op5" class="form-check-label"
                       >Language that is used</label
@@ -662,6 +704,7 @@
                       id="q7-op6"
                       value="Innovativeness"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op6" class="form-check-label"
                       >Innovativeness of experience</label
@@ -674,6 +717,7 @@
                       id="q7-op7"
                       value="other"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op7" class="form-check-label">Other</label>
                   </div>
@@ -691,6 +735,7 @@
                       id="q8-op1"
                       value="General Destination Tour of Singapores"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op1" class="form-check-label"
                       >General Destination Tour of Singapore</label
@@ -703,6 +748,7 @@
                       id="q8-op2"
                       value="Tour of the Cultural Precints"
                       class="form-check-input"
+                      required
                     />
                     <label for="q7-op2" class="form-check-label"
                       >Tour of the Cultural Precints</label
@@ -715,6 +761,7 @@
                       id="q8-op3"
                       value="Cullinary (Food) Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op3" class="form-check-label"
                       >Cullinary (Food) Tours</label
@@ -727,6 +774,7 @@
                       id="q8-op4"
                       value="Arts Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op4" class="form-check-label"
                       >Arts Tours</label
@@ -739,6 +787,7 @@
                       id="q8-op5"
                       value="Hidden Gems of Singapore Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op5" class="form-check-label"
                       >Hidden Gems of Singapore Tours</label
@@ -751,6 +800,7 @@
                       id="q8-op6"
                       value="Team Building experiences"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op6" class="form-check-label"
                       >Team Building experiences</label
@@ -763,6 +813,7 @@
                       id="q8-op7"
                       value="Education Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op7" class="form-check-label"
                       >Education Tours</label
@@ -787,6 +838,7 @@
                       id="q8-op9"
                       value="Education Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q8-op9" class="form-check-label"
                       >Live Streaming events in Singapore</label
@@ -817,6 +869,7 @@
                       id="q9-op1"
                       value="Everyday Tours Company"
                       class="form-check-input"
+                      required
                     />
                     <label
                       for="q9-op1"
@@ -831,6 +884,7 @@
                       id="q9-op2"
                       value="Tribe Tour"
                       class="form-check-input"
+                      required
                     />
                     <label for="q9-op2" class="form-check-label"
                       >Tribe Tour</label
@@ -843,6 +897,7 @@
                       id="q9-op3"
                       value="Monster Tours"
                       class="form-check-input"
+                      required
                     />
                     <label for="q9-op3" class="form-check-label"
                       >Monster Tours</label
@@ -855,6 +910,7 @@
                       id="q9-op4"
                       value="WoknStroll"
                       class="form-check-input"
+                      required
                     />
                     <label for="q9-op4" class="form-check-label"
                       >WoknStroll</label
@@ -886,7 +942,9 @@
                     </p>
                   </div>
                 </div>
-                <button class="btn-next" id="finish">FINISH</button>
+                <button class="btn-next" id="finish" onclick="handleFinish()">
+                  FINISH
+                </button>
               </div>
             </div>
             <!-- END STEP 3 -->
@@ -915,15 +973,57 @@
     <script>
       const handleNextStep = (stepId) => {
         if (stepId === "step_2") {
-          document.getElementById("step-2").style.display = "block";
-          document.getElementById("step-1").style.display = "none";
-          document.getElementById("step-3").style.display = "none";
+          let dd = document.getElementById("step-1");
+          let ss = $("#step-1 > .form-action");
+          let curInputs = ss.find("input[type='text'],input[type='radio']");
+          let isValid = true;
+          $(".form-group").removeClass("has-error");
+          for (var i = 0; i < curInputs.length; i++) {
+            if (!curInputs[i].validity.valid) {
+              isValid = false;
+              $(curInputs[i]).closest(".form-group").addClass("has-error");
+            }
+          }
+
+          if (isValid) {
+            document.getElementById("step-2").style.display = "block";
+            document.getElementById("step-1").style.display = "none";
+            document.getElementById("step-3").style.display = "none";
+          }
         }
 
         if (stepId === "step_3") {
-          document.getElementById("step-2").style.display = "none";
-          document.getElementById("step-1").style.display = "none";
-          document.getElementById("step-3").style.display = "block";
+          let dd = document.getElementById("step-2");
+          let ss = $("#step-2 > .form-action");
+          let curInputs = ss.find("input[type='text'],input[type='radio']");
+          let isValid = true;
+          $(".form-group").removeClass("has-error");
+          for (var i = 0; i < curInputs.length; i++) {
+            if (!curInputs[i].validity.valid) {
+              isValid = false;
+              $(curInputs[i]).closest(".form-group").addClass("has-error");
+            }
+          }
+
+          if (isValid) {
+            document.getElementById("step-2").style.display = "none";
+            document.getElementById("step-1").style.display = "none";
+            document.getElementById("step-3").style.display = "block";
+          }
+        }
+      };
+
+      const handleFinish = (stepId) => {
+        let dd = document.getElementById("step-3");
+        let ss = $("#step-3 > .form-action");
+        let curInputs = ss.find("input[type='text'],input[type='radio']");
+        let isValid = true;
+        $(".form-group").removeClass("has-error-last");
+        for (var i = 0; i < curInputs.length; i++) {
+          if (!curInputs[i].validity.valid) {
+            isValid = false;
+            $(curInputs[i]).closest(".form-group").addClass("has-error-last");
+          }
         }
       };
     </script>
